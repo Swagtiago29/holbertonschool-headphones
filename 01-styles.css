@@ -79,12 +79,13 @@ header img {
     font-size: 16px;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 button {
     border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     padding: 10px;
     width: 150px;
     font-size: 12px;
@@ -95,5 +96,5 @@ button {
 
 .lol {
     height: 600px;
-    color: blueviolet;
+    background-color: blueviolet;
 }
