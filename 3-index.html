@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#"><img src="./images/logo_headphones.png"></a>
+            <nav>
+                <div class="hamburger" onclick="toggleNav()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="navbar">
+                    <a href="#">
+                        <li>what we do</li>
+                    </a>
+                    <a href="#">
+                        <li>our reslts</li>
+                    </a>
+                    <a href="#">
+                        <li>contact us</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-container">
+                <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                <h3>Lorem ipsum dolor set amet lorem ipsum dolor set</h3>
+                <button>CALL TO ACTION</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat
+                    nulla pariatur.</p>
+            </div>
+        </section>
+        <section class="what-we-do">
+            <div class="first-container">
+                <h1>What we do...</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.</p>
+            </div>
+            <div class="second-container">
+                <div class="individual-containers">
+                    <img class="logo" src="./images/sound.png">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="individual-containers">
+                    <img class="logo" src="./images/video.png">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="individual-containers">
+                    <img class="logo" src="./images/note.png">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="individual-containers">
+                    <img class="logo" src="./images/ear.png">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+        <section class="our-results">
+            <div class="first-container">
+                <h1>Our results speak for themselves</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="second-container">
+                <div class="individual-containers">
+                    <h1>+2%</h1>
+                    <img class="pentagone" src="./images/pentagone.png">
+                    <p class="p-2">Lorem ipsum dolor</p>
+                </div>
+                <div class="individual-containers">
+                    <h1>+2%</h1>
+                    <img class="pentagone" src="./images/pentagone.png">
+                    <p class="p-2">Lorem ipsum dolor</p>
+                </div>
+                <div class="individual-containers">
+                    <h1>+2%</h1>
+                    <img class="pentagone" src="./images/pentagone.png">
+                    <p class="p-2">Lorem ipsum dolor</p>
+                </div>
+                <div class="individual-containers">
+                    <h1>+2%</h1>
+                    <p class="p-2">Lorem ipsum dolor</p>
+                    <img class="pentagone" src="./images/pentagone.png">
+                </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="contact-container">
+                <h1>Contact us</h1>
+                <form action="/submit" method="post">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="comment">Your Message</label><br>
+                    <textarea id="comment" name="comment" rows="1" cols="30" required></textarea><br><br>
+                </form>
+                <button type="Submit" value="Submit">CALL TO ACTION</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
